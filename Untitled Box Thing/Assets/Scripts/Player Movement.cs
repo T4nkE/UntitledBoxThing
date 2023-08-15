@@ -101,8 +101,6 @@ public class PlayerMovement : MonoBehaviour
         {
             deathCounter += 1;
             UpdateDeathCounterDisplay();
-            rb.velocity = Vector2.zero; // Reset velocity to zero on death
-            rb.angularVelocity = 0;
         }
     }
 
